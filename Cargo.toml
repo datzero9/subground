@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "runtime",
+]
+[profile.release]
+panic = "unwind"
